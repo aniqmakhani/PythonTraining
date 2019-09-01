@@ -31,8 +31,7 @@ print(Input_str.replace("CON", ''))
 # ''G' with 'C'. Input_str ="ATTCGGTAG", Output_str = "TAAGCCATC"
 print("\nQuestion 3: ")
 str_dict = { 'A': 'T', 'T': 'A', 'C': 'G', 'G': 'C' }
-x ="ATTCGGTAG"
-print("Original string: " + x)
+x = input("Enter a string: ")
 new_str = []
 for str in x:
     new_str.append(str_dict.get(str, ''))
